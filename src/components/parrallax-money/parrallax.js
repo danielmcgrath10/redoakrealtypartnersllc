@@ -37,7 +37,7 @@ export default function ParrallaxImage(props){
         <div id={'parrallax-section'}>
             <img id={'sun'} src={Sun} alt={'Sun'}/>
             <img id={'dump-truck'} src={DumpTruck} alt={'Dump Truck'}/>
-            <span id={'header-text'}>Need to Sell Your House Fast?</span>
+            <span id={'header-text'}>Need Fast Cash?</span>
             <img id={'front-tire'} src={TruckTire} alt={'TruckTire'}/>
             <img id={'back-tire'} src={TruckTire} alt={'TruckTire'}/>
             <img id={'house'} alt={'House'} src={House}/>

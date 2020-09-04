@@ -3,6 +3,49 @@
     width: inherit;
 }
 
-#main-information{
-    height: 1000px;
+#how-it-works{
+    min-height: 100vh;
+    background-color: #bff8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header{
+    color: #8d0f00;
+    font-size: 70pt;
+    font-weight: 600;
+    font-family: 'Caveat', cursive;
+}
+
+#help-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.message-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: #fffdfd;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    height: 500px;
+    width: 400px;
+    margin: 5px;
+}
+
+.message-box-text{
+    text-align: center;
+    font-size: 30pt;
+    font-weight: 600;
+    font-family: 'Caveat', cursive;
+}
+
+.message-box-img {
+    height: 100px;
+    margin-bottom: 100px;
 }
