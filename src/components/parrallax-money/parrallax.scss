@@ -1,0 +1,88 @@
+#parrallax-section{
+    background-color: skyblue;
+    height: 100%;
+    position: relative;
+}
+
+#ground {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    background-color: green;
+    width: 100%;
+}
+
+#header-text{
+    font-size: 60pt;
+    font-weight: 600;
+    color: white;
+    width: 60%;
+    height: 30%;
+    z-index: 1;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#sun{
+    position: absolute;
+    height: 200px;
+    top: 0;
+    left: 0;
+}
+
+#dump-truck {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+#house {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 100px;
+    z-index: 3;
+}
+
+#money{
+    height: 300px;
+    transform: rotate(-70deg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 250px;
+    margin-left: 150px; 
+    z-index: 2;
+}
+
+#person{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px;
+    height: 200px;
+    right: 0;
+    margin-right: 400px;
+    z-index: 4;
+}
+
+#front-tire{
+    height: 130px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 101px;
+    margin-left: 72px;
+    z-index:4;
+}
+
+#back-tire {
+    height: 130px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 101px;
+    margin-left: 351px;
+    z-index:4;
+}
