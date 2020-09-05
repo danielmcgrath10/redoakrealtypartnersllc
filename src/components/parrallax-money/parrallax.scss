@@ -17,6 +17,24 @@
     pointer-events: none;
 }
 
+#cloud1 {
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#cloud2 {
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+
 #ground {
     position: absolute;
     bottom: 0;
@@ -28,14 +46,18 @@
 #header-text{
     font-size: 60pt;
     font-weight: 600;
-    color: white;
-    width: 60%;
-    height: 30%;
+    font-family: 'Gayathri', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 5px;
+    color: black;
+    width: 80%;
+    height: 70%;
     z-index: 1;
     overflow: auto;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
 #sun{
@@ -98,4 +120,34 @@
     margin-bottom: 101px;
     margin-left: 351px;
     z-index:4;
+}
+
+#grass1 {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 95px;
+    margin-left: 200px;
+    z-index: 5;
+}
+
+#grass2 {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 95px;
+    margin-left: 500px;
+    z-index: 3;
+}
+
+#tree{
+    position: absolute;
+    height:600px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 100px;
+    margin-right: 800px;
+    z-index: 1;
 }

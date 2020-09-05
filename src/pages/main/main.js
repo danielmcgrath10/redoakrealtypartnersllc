@@ -6,12 +6,13 @@ import Phone from '../../img/telephone.svg';
 import Money from '../../img/money.svg';
 
 export default function Main(props) {
-    
-
+    const {
+        OurProcessRef
+    } = props;
     return(
         <div id={'main-page'}>
             <ParrallaxImage />
-            <div id={'how-it-works'}>
+            <div ref={OurProcessRef} id={'how-it-works'}>
                 <h1 className={'section-header'}>How We Help You</h1>
                 <div id={'help-boxes'}>
                     <div className={'message-box'}>
@@ -27,7 +28,7 @@ export default function Main(props) {
                         <span className={'message-box-text'}>You Receive Cash at Closing</span>
                     </div>
                 </div>
-            </div>  
+            </div> 
         </div>
     )
 }
