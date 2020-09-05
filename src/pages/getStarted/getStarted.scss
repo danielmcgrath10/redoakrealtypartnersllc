@@ -1,0 +1,50 @@
+#get-started{
+    height: inherit;
+    width: inherit;
+    min-height: 100vh;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.info-section {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    flex-direction: row;
+}
+
+.half-section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.01px solid lightgrey;
+    border-bottom: 0.01px solid lightgrey;
+}
+
+.get-started-span{
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#get-started-questions{
+    font-size: 18pt;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#get-started-header{
+    font-size: 25pt;
+    font-weight: 800;
+    color: #b81301;
+}
+
+#get-started-contact{
+    font-size: 15pt;
+    font-weight: 800;
+    margin-bottom: 20px;
+}

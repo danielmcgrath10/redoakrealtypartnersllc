@@ -1,6 +1,11 @@
 .App {
-  min-height: 1500px;
   width: inherit;
   display: flex;
   flex-direction: column;
+}
+
+label {
+  font-size: 12pt;
+  font-family: 'Livvic', sans-serif;
+  color: #7c0c00;
 }

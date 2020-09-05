@@ -1,0 +1,35 @@
+#PopoverButton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    margin-right: 10px;
+    font-size: 17pt;
+    font-family: 'Lora', serif;
+    color: #7c0c00;
+}
+
+.contact-form-header{
+    font-size: 15pt !important;
+    font-family: 'Livvic', sans-serif;    
+    color: #7c0c00;
+}
+
+.interest-form{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.popover-content{
+    width: 300px;
+}
+
+.popover {
+    width: 700px !important;
+}
+
+#form-title{
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
