@@ -84,14 +84,36 @@
 }
 
 #money{
-    height: 300px;
-    transform: rotate(-70deg);
+    height: 70px;
+    // transform: rotate(90deg);
     position: absolute;
     bottom: 0;
-    left: 0;
-    margin-bottom: 250px;
-    margin-left: 150px; 
-    z-index: 2;
+    right: 0;
+    margin-bottom: 90px;
+    margin-right: 580px; 
+    z-index: 5;
+}
+
+#money1{
+    height: 70px;
+    transform: rotate(-20deg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 90px;
+    margin-right: 550px; 
+    z-index: 5;
+}
+
+#money2{
+    height: 70px;
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 90px;
+    margin-right: 600px; 
+    z-index: 3;
 }
 
 #person{
@@ -151,4 +173,13 @@
     left: 0;
     margin-left: 100px;
     z-index: 1;
+}
+
+#mailbox {
+    position: absolute;
+    height: 200px;
+    bottom: 0;
+    right: 0;
+    margin-right: 550px;
+    margin-bottom: 90px;
 }

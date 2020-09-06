@@ -1,9 +1,82 @@
-// ================================ 
-
 #about-us{
     min-height: 100vh;
-    background-color:black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#about-us::after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url('../../img/office.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.section{
+    min-height: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    z-index: 2;
+}
+
+.role-text {
+    font-family: 'Lora', serif;
+    font-size: 23pt;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    margin-left: 50px;
+    color: #7c0c00;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.role-description {
+    word-wrap: break-word;
+    font-family: 'Lora', serif;
+    font-size: 15pt;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    margin-left: 50px;
+    color: #7c0c00;
+}
+
+.role-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-social-icons {
+    height: 40px;
+    margin: 20px;
+}
+
+.image-cropper{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#danny-headhsot{
+    display: inline;
+    margin: 0 auto;
+    width: 100%;
 }

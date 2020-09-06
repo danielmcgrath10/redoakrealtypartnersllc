@@ -9,6 +9,7 @@ import Money from '../../img/money.svg';
 import Cloud from '../../img/cloud.svg';
 import Grass from '../../img/grass.svg';
 import Tree from '../../img/tree-01.svg';
+import Mailbox from '../../img/Mailbox.svg';
 
 export default function ParrallaxImage(props){
     const handleScroll = () => {
@@ -51,9 +52,12 @@ export default function ParrallaxImage(props){
             <span id={'header-text'}>Get Cash Fast.</span>
             {/* <img id={'front-tire'} src={TruckTire} alt={'TruckTire'}/>
             <img id={'back-tire'} src={TruckTire} alt={'TruckTire'}/> */}
+            <img id={'mailbox'} alt={'Mailbox'} src={Mailbox}/>
             <img id={'house'} alt={'House'} src={House}/>
-            <img id={'person'} alt={'Person'} src={Person}/>
-            {/* <img id={'money'} alt={'Money'} src={Money}/> */}
+            {/* <img id={'person'} alt={'Person'} src={Person}/> */}
+            <img id={'money'} alt={'Money'} src={Money}/>
+            <img id={'money1'} alt={'Money'} src={Money}/>
+            <img id={'money2'} alt={'Money'} src={Money}/>
             <img id={'tree'} alt={'Tree'} src={Tree + '#svgView(viewBox(0, 0, 450, 465))'}/>
             <img id={'grass1'} alt={'Grass'} src={Grass}/>
             <img id={'grass2'} alt={'Grass'} src={Grass}/>

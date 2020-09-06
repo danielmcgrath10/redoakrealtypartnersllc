@@ -24,27 +24,54 @@
     align-items: center;
     border-right: 0.01px solid lightgrey;
     border-bottom: 0.01px solid lightgrey;
+    overflow: hidden;
+    height: 45vh;
+}
+
+.half-section-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 0.01px solid lightgrey;
+    border-bottom: 0.01px solid lightgrey;
+    overflow: hidden;
+    height: 45vh;
+    padding: 40px;
 }
 
 .get-started-span{
-    text-align: center;
-    font-family: 'Oxygen', sans-serif;
+    text-align: left;
+    font-family: 'Lora', serif;
+    word-wrap: break-word;
 }
 
 #get-started-questions{
     font-size: 18pt;
     font-weight: 800;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-#get-started-header{
-    font-size: 25pt;
+.get-started-header{
+    font-size: 30pt;
     font-weight: 800;
+    font-family: 'Lora', serif;
     color: #b81301;
+    text-align: center;
 }
 
 #get-started-contact{
     font-size: 15pt;
     font-weight: 800;
     margin-bottom: 20px;
+}
+
+.contact-photo{
+    width: 100%;
+}
+
+#section-four {
+    max-height: 50vh;
 }
