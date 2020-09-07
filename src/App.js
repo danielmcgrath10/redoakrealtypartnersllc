@@ -24,21 +24,23 @@ function HomePage(props) {
 function App(props) {
   const OurProcessRef = useRef(null);
   return (
-    <div className="App">
+    <>
       <CustomNavbar 
-        {...props}
-        OurProcessRef={OurProcessRef} 
-      />
-        <Switch>
-          <Route exact path={'/'}><Redirect to={'/home'}/></Route>
-          <Route path={'/home'} render={(props) => <HomePage OurProcessRef={OurProcessRef} {...props}/>}/>
-          <Route path={'/get-started'} render={(props) => <GetStarted {...props} />}/>
-          <Route path={'/about-us'} render={(props) => <About {...props} />}/>
-          <Redirect to={'/home'}/>
-        </Switch>
-      <Footer/>
-      <ContactPopover/>
-    </div>
+          {...props}
+          OurProcessRef={OurProcessRef} 
+        />
+      <div className="App">
+          <Switch>
+            <Route exact path={'/'}><Redirect to={'/home'}/></Route>
+            <Route path={'/home'} render={(props) => <HomePage OurProcessRef={OurProcessRef} {...props}/>}/>
+            <Route path={'/get-started'} render={(props) => <GetStarted {...props} />}/>
+            <Route path={'/about-us'} render={(props) => <About {...props} />}/>
+            <Redirect to={'/home'}/>
+          </Switch>
+        <Footer/>
+        <ContactPopover/>
+      </div>
+    </>
   );
 }
 

@@ -31,7 +31,7 @@ export default function ParrallaxImage(props){
             // backTire.style.transform = "rotate(" + scroll*0.5 + "deg)";
             text.style.top = scroll * 0.9+ 'px';
             cloud1.style.left = scroll * 0.2 + 'px';
-            cloud2.style.left = scroll * 0.2 + 'px';
+            // cloud2.style.left = scroll * 0.2 + 'px';
         }
 
     }
@@ -47,7 +47,7 @@ export default function ParrallaxImage(props){
         <div id={'parrallax-section'}>
             <img id={'sun'} src={Sun} alt={'Sun'}/>
             <img id={'cloud1'} src={Cloud} alt={"Cloud"}/>
-            <img id={'cloud2'} src={Cloud} alt={"Cloud"}/>
+            {/* <img id={'cloud2'} src={Cloud} alt={"Cloud"}/> */}
             {/* <img id={'dump-truck'} src={DumpTruck} alt={'Dump Truck'}/> */}
             <span id={'header-text'}>Get Cash Fast.</span>
             {/* <img id={'front-tire'} src={TruckTire} alt={'TruckTire'}/>
@@ -58,7 +58,7 @@ export default function ParrallaxImage(props){
             <img id={'money'} alt={'Money'} src={Money}/>
             <img id={'money1'} alt={'Money'} src={Money}/>
             <img id={'money2'} alt={'Money'} src={Money}/>
-            <img id={'tree'} alt={'Tree'} src={Tree + '#svgView(viewBox(0, 0, 450, 465))'}/>
+            {/* <img id={'tree'} alt={'Tree'} src={Tree + '#svgView(viewBox(0, 0, 450, 465))'}/> */}
             <img id={'grass1'} alt={'Grass'} src={Grass}/>
             <img id={'grass2'} alt={'Grass'} src={Grass}/>
             <div id={'ground'} ></div>
