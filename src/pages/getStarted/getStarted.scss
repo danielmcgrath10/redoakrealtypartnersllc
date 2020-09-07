@@ -106,3 +106,21 @@
         flex-direction: column-reverse;
     }
 }
+
+@media screen and (min-width: 2880px) {
+    .half-section-text{
+        font-size: 4vh;
+    }
+
+    #get-started-questions{
+        font-size: 3vh;
+    }
+
+    #get-started-contact{
+        font-size: 2.5vh;
+    }
+
+    .get-started-header{
+        font-size: 4vh;
+    }
+}
