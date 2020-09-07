@@ -12,7 +12,7 @@
 
 .contact-form-header{
     font-size: 15pt !important;
-    font-family: 'Livvic', sans-serif;    
+    font-family: 'Lora', serif;  
     color: #7c0c00;
 }
 
@@ -21,6 +21,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    font-family: 'Lora', serif;
 }
 .popover-content{
     width: 300px;
@@ -33,4 +34,25 @@
 #form-title{
     font-size: 20pt;
     margin-bottom: 20px;
+    font-family: 'Lora', serif;
+}
+
+#contact-form-spinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+}
+#contact-form-feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    font-family: 'Lora', serif;
+    color: #7c0c00;
+    font-size: 15pt;
+    text-align: center;
 }

@@ -7,7 +7,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import About from './pages/about/about';
 import CustomNavbar from './components/navbar/navbar';
 import GetStarted from './pages/getStarted/getStarted';
-import Popover from './components/popover/popover';
+import ContactPopover from './components/popover/popover';
 
 function HomePage(props) {
   const {
@@ -30,13 +30,14 @@ function App(props) {
         OurProcessRef={OurProcessRef} 
       />
         <Switch>
-          <Route exact path={'/'}><Redirect to={'home'}/></Route>
+          <Route exact path={'/'}><Redirect to={'/home'}/></Route>
           <Route path={'/home'} render={(props) => <HomePage OurProcessRef={OurProcessRef} {...props}/>}/>
-          <Route path={'/contact-us'} render={(props) => <GetStarted {...props} />}/>
+          <Route path={'/get-started'} render={(props) => <GetStarted {...props} />}/>
           <Route path={'/about-us'} render={(props) => <About {...props} />}/>
+          <Redirect to={'/home'}/>
         </Switch>
       <Footer/>
-      <Popover/>
+      <ContactPopover/>
     </div>
   );
 }

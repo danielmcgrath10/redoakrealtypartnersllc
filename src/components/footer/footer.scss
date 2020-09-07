@@ -1,5 +1,5 @@
 #footer{
-    background-color:#e0e1e0;
+    background-color:#f3f9fa;
     display: flex;
     flex-direction: row;
 }
@@ -12,10 +12,33 @@
     margin: 30px;
 }
 
+.footer-section-horizontal{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
 .footer-text{
     font-family: 'Lora', serif;
     color: #7c0c00;
     text-align: center;
+}
+
+.footer-text-link{
+    font-family: 'Lora', serif;
+    color: #7c0c00;
+    text-align: center;
+    margin: 10px;
+}
+
+.footer-text-link:hover{
+    color: #520800;
+}
+
+.footer-text-attr{
+    font-family: 'Lora', serif;
+    color: #7c0c00;
+    font-size: 8pt;;
 }
 
 #footer-title{
@@ -28,6 +51,11 @@
 }
 
 #insta{
+    height: 30px;
+    margin-right: 20px;
+}
+
+#linked{
     height: 30px;
 }
 

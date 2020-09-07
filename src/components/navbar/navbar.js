@@ -41,7 +41,7 @@ export default function CustomNavbar(props) {
                         <NavLink className={activeTab === 'home' ? 'nav-tab active' : 'nav-tab'} href={'/home'}>Home</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className={activeTab === 'contact-us' ? 'nav-tab active' : 'nav-tab'} href={'/contact-us'}>Get Started</NavLink>
+                        <NavLink className={activeTab === 'get-started' ? 'nav-tab active' : 'nav-tab'} href={'/get-started'}>Get Started</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className={activeTab === 'about-us' ? 'nav-tab active' : 'nav-tab'} href={'/about-us'}>Who We Are</NavLink>
