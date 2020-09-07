@@ -1,7 +1,6 @@
 #parrallax-section{
     background-color: skyblue;
     height: 100vh;
-
 }
 
 #parrallax-section::before{
@@ -33,13 +32,13 @@
     top: 0;
     left: 0;
     margin-top: 100px;
-    margin-left: 1000px;
+    margin-left: 60%;
 }
 
 #ground {
     position: absolute;
     bottom: 0;
-    height: 100px;
+    height: 11vh;
     background-color: green;
     width: 100%;
     z-index:2;
@@ -80,7 +79,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-bottom: 100px;
+    margin-bottom: 11vh;
     z-index: 3;
 }
 
@@ -90,7 +89,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-bottom: 90px;
+    margin-bottom: 10vh;
     margin-right: 580px; 
     z-index: 5;
 }
@@ -101,7 +100,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-bottom: 90px;
+    margin-bottom: 10vh;
     margin-right: 550px; 
     z-index: 5;
 }
@@ -112,39 +111,9 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-bottom: 90px;
+    margin-bottom: 10vh;
     margin-right: 600px; 
     z-index: 3;
-}
-
-#person{
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 100px;
-    height: 200px;
-    right: 0;
-    margin-right: 400px;
-    z-index: 4;
-}
-
-#front-tire{
-    height: 130px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin-bottom: 101px;
-    margin-left: 72px;
-    z-index:4;
-}
-
-#back-tire {
-    height: 130px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin-bottom: 101px;
-    margin-left: 351px;
-    z-index:4;
 }
 
 #grass1 {
@@ -152,8 +121,8 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-bottom: 95px;
-    margin-left: 550px;
+    margin-bottom: 10.5vh;
+    margin-left: 28%;
     z-index: 5;
 }
 
@@ -162,8 +131,8 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-bottom: 95px;
-    margin-left: 460px;
+    margin-bottom: 10.5vh;
+    margin-left: 23%;
     z-index: 3;
 }
 
@@ -172,7 +141,8 @@
     height:750px;
     bottom: 0;
     left: 0;
-    margin-left: 100px;
+    margin-bottom: 6vh;
+    margin-left: 7%;
     z-index: 1;
 }
 
@@ -182,5 +152,159 @@
     bottom: 0;
     right: 0;
     margin-right: 550px;
-    margin-bottom: 90px;
+    margin-bottom: 10vh;
 }
+
+@media screen and (max-width: 1600px) {
+    #cloud1 {
+        max-width: 20%;
+        margin-top: 9%;
+        margin-left: 9%;
+    }
+    
+    #cloud2 {
+        max-width: 30%;
+        margin-top: 100px;
+        margin-left: 60%;
+    }
+
+    #sun{
+        position: absolute;
+        max-width: 30%;
+    }
+
+    #header-text{
+        font-size: 11vh;
+    }
+
+    #house {
+        max-width: 30%;
+        margin-bottom: 11vh;
+    }
+
+    #mailbox {
+        max-width: 7%;
+        height: auto;
+        margin-right: 34%;
+        margin-bottom: 11vh;
+    }
+
+    #money{
+        max-width: 3%;
+        height: auto;
+        margin-right: 35.5%; 
+        margin-bottom: 10vh;
+    }
+    
+    #money1{
+        max-width: 3%;
+        height: auto;
+        margin-right: 34.5%;
+        margin-bottom: 10vh;
+    }
+    
+    #money2{
+        max-width: 3%;
+        height: auto;
+        margin-right: 36.5%; 
+        margin-bottom: 10vh;
+    }
+
+    #grass1 {
+        max-width: 3%;
+        height: auto;
+        margin-bottom: 10.5vh;
+        margin-left: 20%;
+    }
+    
+    #grass2 {
+        max-width: 3%;
+        height: auto;
+        margin-bottom: 10.5vh;
+        margin-left: 30%;
+    }
+    
+    #tree{
+        max-width: 45%;
+        height: auto;
+        margin-left: 4%;
+        margin-bottom: 9vh;
+    }
+}
+
+@media screen and (min-width: 2800px) {
+    #cloud1 {
+        min-height: 20%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    
+    #cloud2 {
+        min-height: 30%;
+        margin-top: 100px;
+        margin-left: 60%;
+    }
+
+    #sun{
+        position: absolute;
+        min-height: 20%;
+    }
+
+    #header-text{
+        font-size: 15vh;
+    }
+
+    #house {
+        min-height: 40%;
+        margin-bottom: 11vh;
+    }
+
+    #mailbox {
+        min-height: 15%;
+        width: auto;
+        margin-right: 30%;
+        margin-bottom: 10vh;
+    }
+
+    #money{
+        max-width: 3%;
+        height: auto;
+        margin-right: 30.75%; 
+        margin-bottom: 10vh;
+    }
+    
+    #money1{
+        max-width: 3%;
+        height: auto;
+        margin-right: 29.5%;
+        margin-bottom: 10vh;
+    }
+    
+    #money2{
+        max-width: 3%;
+        height: auto;
+        margin-right: 32%; 
+        margin-bottom: 10vh;
+    }
+
+    #grass1 {
+        max-width: 3%;
+        height: auto;
+        margin-bottom: 10.5vh;
+        margin-left: 20%;
+    }
+    
+    #grass2 {
+        max-width: 3%;
+        height: auto;
+        margin-bottom: 10.5vh;
+        margin-left: 30%;
+    }
+    
+    #tree{
+        min-height: 60%;
+        width: auto;
+        margin-left: 10%;
+        margin-bottom: 9vh;
+    }
+  }
