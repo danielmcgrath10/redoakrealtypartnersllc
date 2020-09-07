@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4.5em;
+    margin-top: 4.6em;
 }
 
 .info-section {
@@ -72,4 +72,36 @@
 
 #section-four {
     max-height: 50vh;
+}
+
+@media screen and (max-width: 800px) {
+    .info-section{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .half-section {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .half-section-text{
+        font-size: 10pt;
+    }
+
+    .half-section-text {
+        width: 100%;
+        border-bottom: none
+    }
+
+    #get-started-contact{
+        font-size: 13pt;
+    }
+
+    #section-two {
+        flex-direction: column-reverse;
+    }
+    
+    #section-four {
+        flex-direction: column-reverse;
+    }
 }
