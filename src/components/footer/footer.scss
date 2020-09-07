@@ -2,6 +2,7 @@
     background-color:#f3f9fa;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .footer-section {
@@ -61,4 +62,67 @@
 
 #footer-logo {
     height: 125px;
+}
+
+@media screen and (max-width: 1000px) {
+    #footer{
+        flex-direction: column;
+    }
+    
+    #footer-title{
+        font-size: 4vw;
+    }
+
+    #footer-information {
+        font-size: 3vw;
+    }
+
+    .footer-section {
+        margin: 10px;
+    }
+
+    .footer-text-attr {
+        font-size: 2vw;
+    }
+
+    .footer-text-link {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 2880px) {
+    
+    #footer-title{
+        font-size: 2.5vh;
+    }
+
+    #footer-information {
+        font-size: 2vh;
+    }
+
+    .footer-section {
+        margin: 10px;
+    }
+
+    .footer-text-attr {
+        font-size: 1vh;
+    }
+
+    .footer-text-link {
+        font-size: 2vh;
+    }
+
+    #fb{
+        height: 2vh;
+        margin-right: 20px;
+    }
+    
+    #insta{
+        height: 2vh;
+        margin-right: 20px;
+    }
+    
+    #linked{
+        height: 2vh;
+    }
 }

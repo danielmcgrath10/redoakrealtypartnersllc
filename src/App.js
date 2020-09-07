@@ -37,7 +37,7 @@ function App(props) {
             <Route path={'/about-us'} render={(props) => <About {...props} />}/>
             <Redirect to={'/home'}/>
           </Switch>
-        {/* <Footer/> */}
+        <Footer/>
         <ContactPopover/>
       </div>
     </>
