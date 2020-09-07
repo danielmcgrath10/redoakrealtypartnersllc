@@ -8,7 +8,7 @@ import DannyHeadshot from '../../img/danny-headshot.JPG';
 export default function About(props) {
     return(
         <div id={'about-us'}>
-            <div className={'section'}>
+            <div id={'top'} className={'section'}>
                 <span className={'role-text'}>Michael Timson, Manager</span>
                 <span className={'role-description'}>
                     Resident savage of the company. Michael has had little to no experience in the real estate
@@ -21,7 +21,7 @@ export default function About(props) {
                     <img alt={'LinkedIn Link'} src={Linkedin} className={'about-social-icons'} id={'linkedin-link'}/>
                 </div>
             </div>
-            <div className={'section'}>
+            <div id={'bottom'} className={'section'}>
                 <div className={'image-cropper'}>
                     <img alt={'Headshot'} src={DannyHeadshot} id={'danny-headhsot'} />
                 </div>
