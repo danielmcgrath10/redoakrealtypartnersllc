@@ -21,17 +21,19 @@
 }
 
 #cloud1 {
-    height: 200px;
+    max-width: 15%;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 100px;
+    margin-top: 5vw;
     margin-left: 100px;
     z-index: 1;
 }
 
 #cloud2 {
-    height: 300px;
+    max-width: 20%;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
@@ -74,7 +76,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 30%;
+    margin-top: 25%;
     margin-left: 40%;
     z-index: 1;
 }
@@ -435,7 +437,7 @@
     }
     
     #fallingmoney6 {
-        max-width: 15%;
+        max-width: 12%;
         margin-left: 10%;
         margin-top: 20%;
     }

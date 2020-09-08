@@ -10,14 +10,17 @@ export default function GetStarted(props) {
         <div id={'get-started'}>
             <div id={'section-one'} className={'info-section'}>
                 <div className={'half-section-text'}>
-                    <span id={'get-started-questions'} className={'get-started-span'}>
+                    <span className={'get-started-questions get-started-span'}>
                         Are you behind on your mortgage? <br/>
                         Are you overwhelmed by the cost of selling your property? <br/>
-                        Do you want to sell your property quickly for cash?
+                        Do you want to sell your property quickly for cash? <br/>
                     </span>
                     <h1 className={'get-started-header'}>
                         Let Us Help You.
                     </h1>
+                    <span id={'emphasis'} className={'get-started-questions get-started-span'}>
+                        Simply leave us your contact information and we will get in touch with you within one business day
+                    </span>
                 </div>
                 <div className={'half-section'}>
                     <img alt={'Contact'} src={Contact} className={'contact-photo'}/>
@@ -29,7 +32,7 @@ export default function GetStarted(props) {
                 </div>
                 <div className={'half-section-text'}>
                     <h1 className={'get-started-header'}>We Contact You</h1>
-                    <span id={'get-started-contact'} className={'get-started-span'}>
+                    <span className={'get-started-contact get-started-span'}>
                         We want to begin the process of open and honest communication in order to make sure our solution is the best for you.
                         If we can be of service, we will then schedule an appointment to learn more about the property.
                         After assessing the property, we will provide you with a fair cash offer either in person or virtually.
@@ -39,7 +42,7 @@ export default function GetStarted(props) {
             <div id={'section-three'} className={'info-section'}>
                 <div className={'half-section-text'}>
                     <h1 className={'get-started-header'}>We Reach An Agreement</h1>
-                    <span id={'get-started-contact'} className={'get-started-span'}>
+                    <span className={'get-started-contact get-started-span'}>
                         Once we have agreed upon a price and closing date, we sign a Purchase and Sale Agreement
                     </span>
                 </div>

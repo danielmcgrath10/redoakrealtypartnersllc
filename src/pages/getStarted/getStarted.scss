@@ -24,7 +24,7 @@
     align-items: center;
     border-bottom: 0.01px solid lightgrey;
     overflow: hidden;
-    height: 45vh;
+    min-height: 45vh;
 }
 
 .half-section-text{
@@ -35,7 +35,7 @@
     align-items: center;
     border-bottom: 0.01px solid lightgrey;
     overflow: hidden;
-    height: 45vh;
+    min-height: 45vh;
     padding: 40px;
 }
 
@@ -45,12 +45,16 @@
     word-wrap: break-word;
 }
 
-#get-started-questions{
+.get-started-questions{
     font-size: 18pt;
     font-weight: 800;
     margin-bottom: 20px;
     margin-top: 25px;
     text-align: center;
+}
+
+#emphasis {
+    font-size: 22pt;
 }
 
 .get-started-header{
@@ -61,7 +65,7 @@
     text-align: center;
 }
 
-#get-started-contact{
+.get-started-contact{
     font-size: 15pt;
     font-weight: 800;
     margin-bottom: 20px;
@@ -69,10 +73,6 @@
 
 .contact-photo{
     width: 100%;
-}
-
-#section-four {
-    max-height: 50vh;
 }
 
 @media screen and (max-width: 800px) {
@@ -89,13 +89,26 @@
         font-size: 10pt;
     }
 
-    .half-section-text {
-        width: 100%;
-        border-bottom: none
+    .get-started-header{
+        font-size:7vw;
     }
 
-    #get-started-contact{
-        font-size: 13pt;
+    .half-section-text {
+        width: 100%;
+        border-bottom: none;
+        padding: 10px;
+    }
+
+    #emphasis {
+        font-size: 5vw;
+    }
+
+    .get-started-questions{
+        font-size: 4.5vw;
+    }
+
+    .get-started-contact{
+        font-size: 4vw;
     }
 
     #section-two {

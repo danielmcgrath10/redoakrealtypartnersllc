@@ -46,8 +46,6 @@ export default function ParrallaxImage(props){
                 cloud5.style.left = scroll * 0.2 + 'px';
                 cloud6.style.left = scroll * 0.2 + 'px';
                 cloud7.style.left = scroll * 0.2 + 'px';
-                // fallingMoney3.style.top = scroll * 0.3 + 'px';
-                // fallingMoney4.style.top = scroll * 0.3 + 'px';
             }
 
             if(scroll > 969){
@@ -70,14 +68,12 @@ export default function ParrallaxImage(props){
                 cloud5.style.left = scroll * 0.1 + 'px';
                 cloud6.style.left = scroll * 0.1 + 'px';
                 cloud7.style.left = scroll * 0.1 + 'px';
-                // fallingMoney3.style.top = scroll * 0.3 + 'px';
-                // fallingMoney4.style.top = scroll * 0.3 + 'px';
             }
             if(scroll > 1762) {
                 cloud8.style.left = (scroll * 0.01) * 3 + 'px';
                 cloud9.style.left = (scroll * 0.01) * 3 + 'px';
-                fallingMoney5.style.top = (scroll * 0.03) * 3 + 'px';
-                fallingMoney6.style.top = (scroll * 0.03) + 'px';
+                fallingMoney5.style.top = (scroll * 0.03) * 4 + 'px';
+                fallingMoney6.style.top = (scroll * 0.03) * 4 + 'px';
             }
         }
     }
