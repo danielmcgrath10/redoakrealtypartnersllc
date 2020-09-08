@@ -36,7 +36,7 @@ export default function ContactPopover(props){
             <Button id={'PopoverButton'} type={'button'} color={'light'}>
                 Contact Us
             </Button>
-            <Popover isOpen={popoverOpen} toggle={toggle} className={'popover-content'} placement={'top-start'} target={'PopoverButton'}>
+            <Popover fade isOpen={popoverOpen} toggle={toggle} className={'popover-content'} placement={'top-start'} target={'PopoverButton'}>
                 <PopoverBody className={'popover-body'}>
                     {
                         loading ? 

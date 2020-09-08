@@ -1,20 +1,23 @@
 #parrallax-section{
     background-color: skyblue;
-    height: 100vh;
 }
 
-#parrallax-section::before{
-    content: "";
-    display: block;
+.parrallax-section-section {
+    position: relative;
+    background-color: skyblue;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#help-boxes {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100%;
-    height: 2%;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 10;
-    // transform: translateY(-50%);
-    background: linear-gradient(green, transparent);
-    pointer-events: none;
+    height: 100%;
+    z-index: 5;
 }
 
 #cloud1 {
@@ -24,6 +27,7 @@
     left: 0;
     margin-top: 100px;
     margin-left: 100px;
+    z-index: 1;
 }
 
 #cloud2 {
@@ -33,7 +37,132 @@
     left: 0;
     margin-top: 100px;
     margin-left: 60%;
+    z-index: 1;
 }
+
+#cloud3 {
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 30%;
+    margin-left: 25%;
+    z-index: 3; 
+}
+
+#cloud4 {
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 35%;
+    margin-left: 60%;
+    z-index: 3;
+}
+
+#cloud5 {
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 2%;
+    z-index: 1;
+}
+#cloud6 {
+    max-width: 30%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 30%;
+    margin-left: 40%;
+    z-index: 1;
+}
+
+#cloud7 {
+    max-width: 15%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top:35%;
+    z-index: 1;
+}
+
+#cloud8 {
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5%;
+    z-index: 1;
+}
+#cloud9 {
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 40%;
+    z-index: 1;
+}
+
+#fallingmoney1 {
+    position: absolute;
+    height: 5vh;
+    width: auto;
+    top: 0;
+    left: 0;
+    margin-left: 130px;
+    margin-top: 210px;
+}
+
+#fallingmoney2 {
+    position: absolute;
+    height: 9vh;
+    width: auto;
+    top: 0;
+    left: 0;
+    margin-left: 70%;
+    margin-top: 250px;
+}
+
+#fallingmoney3 {
+    position: absolute;
+    height: 12vh;
+    width: auto;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+}
+#fallingmoney4 {
+    position: absolute;
+    height: 12vh;
+    width: auto;
+    top: 0;
+    left: 0;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#fallingmoney5 {
+    position: absolute;
+    height: 12vh;
+    width: auto;
+    top: 0;
+    left: 0;
+    margin-left: 90%;
+}
+
+#fallingmoney6 {
+    position: absolute;
+    height: 12vh;
+    width: auto;
+    top: 0;
+    left: 0;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+// =============================================
 
 #ground {
     position: absolute;
@@ -47,19 +176,15 @@
 #header-text{
     font-size: 125pt;
     font-weight: 800 !important;
-    // font-family: 'Crimson Text', serif;
-    // font-family: 'Oxygen', sans-serif;
     font-family: 'Livvic', sans-serif;
-    // letter-spacing: 5px;
     color: black;
     width: 70%;
-    height: 80%;
+    height: 30%;
     z-index: 2;
     overflow: auto;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-    // text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 #sun{
@@ -164,7 +289,8 @@
     
     #cloud2 {
         max-width: 30%;
-        margin-top: 100px;
+        height: auto;
+        margin-top: 15vh;
         margin-left: 60%;
     }
 
@@ -175,6 +301,7 @@
 
     #header-text{
         font-size: 11vh;
+        height: 70%;
     }
 
     #house {
@@ -229,6 +356,88 @@
         height: auto;
         margin-left: 4%;
         margin-bottom: 9vh;
+    }
+
+    #cloud3 {
+        max-width: 25%;
+        height: auto;
+        margin-top: 60vh;
+        margin-left: 15%;
+        z-index: 1;
+    }
+    
+    #cloud4 {
+        max-width: 35%;
+        height: auto;
+        margin-top: 80vh;
+        margin-left: 50%;
+        z-index: 1;
+    }
+    
+    #cloud5 {
+        max-width: 50%;
+        height: auto;
+        margin-left: 5%;
+    }
+    #cloud6 {
+        max-width: 25%;
+        height: auto;
+        margin-top: 65vh;
+        margin-left: 50%;
+        // z-index: 999;
+    }
+
+    #cloud7{
+        max-width: 30%;
+        height: auto;
+        margin-top: 108vh;
+        margin-left: -20%;
+    }
+    
+    #cloud8 {
+        max-width: 30%;
+        height: auto;
+        margin-top: 5%;
+    }
+    #cloud9 {
+        max-width: 40%;
+        margin-left: 40%;
+    }
+    
+    #fallingmoney1 {
+        max-width: 5%;
+        height: auto;
+        margin-left: 15%;
+        margin-top: 130px;;
+    }
+    
+    #fallingmoney2 {
+        max-width: 10%;
+        margin-left: 70%;
+        margin-top: 19vh;
+    }
+    
+    #fallingmoney3 {
+        max-width: 10vh;
+        height: auto;
+        margin-left: 70%;
+    }
+    #fallingmoney4 {
+        max-width: 12vh;
+        height: auto;
+        margin-left: 15%;
+        margin-top: 50%;
+    }
+    
+    #fallingmoney5 {
+        max-width: 10%;
+        margin-left: 70%;
+    }
+    
+    #fallingmoney6 {
+        max-width: 15%;
+        margin-left: 10%;
+        margin-top: 20%;
     }
 }
 
