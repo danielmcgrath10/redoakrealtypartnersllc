@@ -31,7 +31,7 @@ export default function ParrallaxImage(props){
         let fallingMoney6 = document.getElementById("fallingmoney6");
 
         let screen = window.innerWidth;
-        console.log(scroll);
+        // console.log(scroll);
         if(screen >=1600) {
             if(scroll < 987){
                 text.style.top = scroll * 0.9+ 'px';
@@ -97,7 +97,7 @@ export default function ParrallaxImage(props){
                 <img id={'fallingmoney1'} alt={'Money'} src={Money}/>
                 <img id={'fallingmoney2'} alt={'Money'} src={Money}/>
             </div>
-            <div className={'parrallax-section-section'}>
+            <div id={'help-section'} className={'parrallax-section-section'}>
                 <div id={'help-boxes'}>
                     <div className={'message-box'}>
                         <img src={Form} alt={'Form'} className={'message-box-img'}/>

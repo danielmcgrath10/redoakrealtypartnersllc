@@ -10,6 +10,17 @@
     border: 1px solid lightgrey;
 }
 
+.popover-body{
+    border-radius: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: row;
+}
+
 .contact-form-header{
     font-size: 15pt !important;
     font-family: 'Lora', serif;  
@@ -18,7 +29,7 @@
 
 .interest-form{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     font-family: 'Lora', serif;
@@ -55,4 +66,19 @@
     color: #7c0c00;
     font-size: 15pt;
     text-align: center;
+}
+
+#phone-input {
+    border: none;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }

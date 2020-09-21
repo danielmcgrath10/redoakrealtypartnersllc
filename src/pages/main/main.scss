@@ -20,40 +20,6 @@
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-#help-boxes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    max-width: 100%;
-}
-
-.message-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid grey;
-    background-color: #fffdfd;
-    border-radius: 20px;
-    box-shadow: 0px 1px 10px black;
-    height: 500px;
-    width: 400px;
-    margin: 5px;
-}
-
-.message-box-text{
-    text-align: center;
-    font-size: 30pt;
-    font-weight: 600;
-    font-family: 'Caveat', cursive;
-}
-
-.message-box-img {
-    height: 100px;
-    margin-bottom: 100px;
-}
-
 @media screen and (max-width: 1600px) {
     .message-box{
         min-width: 300px;
