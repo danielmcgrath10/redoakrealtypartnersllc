@@ -19,7 +19,7 @@ export default function Footer(props){
                     1510 Tremont St. <br/>
                     Boston, MA 02120 <br/>
                     (XXX) XXX - XXXX | (XXX) XXX - XXXX<br/>
-                    XXXXXXX@XXXXX.XXXX | XXXXXXX@XXXXX.XXXX
+                    michael@redoakrpllc.com | daniel@redoakrpllc.com
                 </span>
                 <div style={{display: 'flex', flexDirection: 'row', margin: '10px'}}>
                     <a href={'https://www.facebook.com/'}><img alt={'Facebook'} src={FB} id={'fb'} /></a>

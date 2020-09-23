@@ -5,9 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter} from 'react-router-dom';
+import {NotificationContainer} from 'react-notifications';
+import 'react-notifications/lib/notifications.css';
 
 ReactDOM.render(
     <BrowserRouter>
+      <NotificationContainer/>
       <App />
     </BrowserRouter>,
   document.getElementById('root')
