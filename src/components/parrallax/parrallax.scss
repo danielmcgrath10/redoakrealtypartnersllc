@@ -206,17 +206,32 @@
 }
 
 #header-text{
-    font-size: 125pt;
+    font-size: 115pt;
     font-weight: 800 !important;
     font-family: 'Livvic', sans-serif;
     color: black;
-    width: 70%;
-    height: 30%;
+    width: 80%;
+    height: 60%;
     z-index: 2;
     overflow: auto;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#header-text-bottom{
+    font-size: 80pt;
+    font-weight: 800 !important;
+    font-family: 'Livvic', sans-serif;
+    text-align: center;
+    color: black;
+    width: 90%;
+    height: 100%;
+    z-index: 2;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 12%;
 }
 
 #sun{

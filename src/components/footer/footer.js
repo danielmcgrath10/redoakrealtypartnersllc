@@ -23,7 +23,7 @@ export default function Footer(props){
                 </span>
                 <div style={{display: 'flex', flexDirection: 'row', margin: '10px'}}>
                     <a href={'https://www.facebook.com/'}><img alt={'Facebook'} src={FB} id={'fb'} /></a>
-                    <a href={'https://www.instagram.com/'}><img alt={'Instagram'} src={Insta} id={'insta'}/></a>
+                    <a target="_blank" href={'https://www.instagram.com/redoakrpllc'}><img alt={'Instagram'} src={Insta} id={'insta'}/></a>
                     <a href={'https://www.linkedin.com/'}><img alt={'LinkedIn'} src={Linked} id={'linked'}/></a>
                 </div>
             </div>
@@ -41,6 +41,8 @@ export default function Footer(props){
                 <span className={'footer-text-attr'}>Photo by <a href="https://unsplash.com/@sctgrhm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Scott Graham</a> on <a href="https://unsplash.com/s/photos/agreement?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
                 <span className={'footer-text-attr'}>Photo by <a href="https://unsplash.com/@giorgiotrovato?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Giorgio Trovato</a> on <a href="https://unsplash.com/s/photos/cash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
                 <span className={'footer-text-attr'}>Photo by <a href="https://unsplash.com/@sunday_digital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nastuh Abootalebi</a> on <a href="https://unsplash.com/s/photos/office?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+                <span>Photo by <a href="https://unsplash.com/@clemono?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clem Onojeghuo</a> on <a href="https://unsplash.com/s/photos/relax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+                <span>Photo by <a href="https://unsplash.com/@knobelman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Yaniv Knobel</a> on <a href="https://unsplash.com/s/photos/alarm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             </div>
         </div>
     )

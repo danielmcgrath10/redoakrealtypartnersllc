@@ -9,30 +9,18 @@ export default function About(props) {
     return(
         <div id={'about-us'}>
             <div id={'top'} className={'section'}>
-                <span className={'role-text'}>Michael Timson, Manager</span>
+                <span id={'mission-statement'} className={'role-text'}>
+                    Red Oak Realty Partners LLC is a real estate wholesaling company dedicated to providing the most
+                    efficient and transparent service possible to its clients. Our goal is to create value for our
+                    clients by taking on the burden of selling their property, and closing deals quickly.
+                </span>
+                <span className={'role-text'}>Michael Timson | Daniel McGrath</span>
                 <span className={'role-description'}>
-                    Resident savage of the company. Michael has had little to no experience in the real estate
-                    world, but he has read copious amounts on everything ranging from marketing to psychology.
-                    His knee also does a weird clicky thing.
+                    [insert Bio here]
                 </span>
                 <div className={'role-social'}>
                     <img alt={'FaceBook Link'} src={FB} className={'about-social-icons'} id={'fb-link'}/>
-                    <img alt={'Instagram Link'} src={Insta} className={'about-social-icons'} id={'insta-link'}/>
-                    <img alt={'LinkedIn Link'} src={Linkedin} className={'about-social-icons'} id={'linkedin-link'}/>
-                </div>
-            </div>
-            <div id={'bottom'} className={'section'}>
-                <div className={'image-cropper'}>
-                    <img alt={'Headshot'} src={DannyHeadshot} id={'danny-headhsot'} />
-                </div>
-                <span className={'role-text'}>Daniel McGrath, Manager</span>
-                <span className={'role-description'}>
-                    Danny has very little knowledge in the way of marketing, but, if you haven't heard, 
-                    he has worked construction. Otherwise, Danny's only experience in real 
-                </span>
-                <div className={'role-social'}>
-                    <img alt={'FaceBook Link'} src={FB} className={'about-social-icons'} id={'fb-link'}/>
-                    <img alt={'Instagram Link'} src={Insta} className={'about-social-icons'} id={'insta-link'}/>
+                    <a target="_blank" href={'https://www.instagram.com/redoakrpllc'}><img alt={'Instagram Link'} src={Insta} className={'about-social-icons'} id={'insta-link'}/></a>
                     <img alt={'LinkedIn Link'} src={Linkedin} className={'about-social-icons'} id={'linkedin-link'}/>
                 </div>
             </div>

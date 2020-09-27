@@ -93,7 +93,7 @@ export default function ParrallaxImage(props){
                 <img id={'cloud2'} src={Cloud} alt={"Cloud"}/>
                 <img id={'cloud3'} src={Cloud} alt={"Cloud"}/>
                 <img id={'cloud4'} src={Cloud} alt={"Cloud"}/>
-                <span id={'header-text'}>Get Cash Fast.</span>
+                <span id={'header-text'}>Make Your House Work For You</span>
                 <img id={'fallingmoney1'} alt={'Money'} src={Money}/>
                 <img id={'fallingmoney2'} alt={'Money'} src={Money}/>
             </div>
@@ -105,7 +105,7 @@ export default function ParrallaxImage(props){
                     </div>
                     <div className={'message-box'}>
                         <img src={Phone} alt={'Phone'} className={'message-box-img'}/>
-                        <span className={'message-box-text'}>We Contact You</span>
+                        <span className={'message-box-text'}>You Answer a Call</span>
                     </div>
                     <div className={'message-box'}>
                         <img src={Money} alt={'Money'} className={'message-box-img'}/>
@@ -117,6 +117,7 @@ export default function ParrallaxImage(props){
                 <img id={'cloud7'} src={Cloud} alt={"Cloud"}/>
             </div>
             <div className={'parrallax-section-section'}>
+                <span id={'header-text-bottom'}>Your Money Is Waiting<br/> Contact Us Today</span>
                 <img id={'fallingmoney5'} alt={'Money'} src={Money}/>
                 <img id={'fallingmoney6'} alt={'Money'} src={Money}/>
                 <img id={'cloud8'} src={Cloud} alt={"Cloud"}/>

@@ -1,9 +1,9 @@
 import React from 'react';
 import './getStarted.scss';
 import Contact from '../../img/contact.jpg';
-import Telephone from '../../img/phone.jpg';
-import Agreement from '../../img/agreement.jpg';
 import Money from '../../img/money-pic.jpg';
+import Time from '../../img/time-2.jpg';
+import Relax from '../../img/relax.jpg';
 
 export default function GetStarted(props) {
     return(
@@ -11,15 +11,16 @@ export default function GetStarted(props) {
             <div id={'section-one'} className={'info-section'}>
                 <div className={'half-section-text'}>
                     <span className={'get-started-questions get-started-span'}>
-                        Are you behind on your mortgage? <br/>
+                        {/* Are you behind on your mortgage? <br/> */}
+                        Is your home a burden? <br/>
                         Are you overwhelmed by the cost of selling your property? <br/>
-                        Do you want to sell your property quickly for cash? <br/>
+                        Do you want to sell your house quickly for cash? <br/>
                     </span>
                     <h1 className={'get-started-header'}>
-                        Let Us Help You.
+                        We Can Help 
                     </h1>
                     <span id={'emphasis'} className={'get-started-questions get-started-span'}>
-                        Simply leave us your contact information and we will get in touch with you within one business day
+                        Call Us Today to Get Started
                     </span>
                 </div>
                 <div className={'half-section'}>
@@ -28,26 +29,26 @@ export default function GetStarted(props) {
             </div>
             <div id={'section-two'} className={'info-section'}>
                 <div className={'half-section'}>
-                    <img alt={'Phone'} src={Telephone} className={'contact-photo'}/>
+                    <img alt={'Phone'} src={Time} className={'contact-photo'}/>
                 </div>
                 <div className={'half-section-text'}>
-                    <h1 className={'get-started-header'}>We Contact You</h1>
+                    <h1 className={'get-started-header'}>We Move Quickly</h1>
                     <span className={'get-started-contact get-started-span'}>
-                        We want to begin the process of open and honest communication in order to make sure our solution is the best for you.
-                        If we can be of service, we will then schedule an appointment to learn more about the property.
-                        After assessing the property, we will provide you with a fair cash offer either in person or virtually.
+                        We provide open and honest communication to find a solution that works for you.
+                        Your time is valuable, so we promptly schedule a property assessment if our services meet your needs.
+                        Following our assessment, we deliver a fair cash offer.
                     </span>
                 </div>
             </div>
             <div id={'section-three'} className={'info-section'}>
                 <div className={'half-section-text'}>
-                    <h1 className={'get-started-header'}>We Reach An Agreement</h1>
+                    <h1 className={'get-started-header'}>Your Work is Done</h1>
                     <span className={'get-started-contact get-started-span'}>
-                        Once we have agreed upon a price and closing date, we sign a Purchase and Sale Agreement
+                        After you sign a Purchase and Sale Agreement with us, you can sit back and let us do the rest.
                     </span>
                 </div>
                 <div className={'half-section'}>
-                    <img alt={'Agreement'} src={Agreement} className={'contact-photo'}/>
+                    <img alt={'Agreement'} src={Relax} className={'contact-photo'}/>
                 </div>
             </div>
             <div id={'section-four'} className={'info-section'}>

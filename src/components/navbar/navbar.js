@@ -47,7 +47,7 @@ export default function CustomNavbar(props) {
             <Navbar id={'header-nav'} color={'faded'} light >
                 <NavbarBrand id={'title'} href={'/'} className="mr-auto">
                     <img alt={'Logo'} id={'navbar-logo'} src={Tree}/>
-                    | Red Oak Realty Partners LLC.
+                    <span id={'title-span'}> Red Oak Realty Partners LLC.</span>
                 </NavbarBrand>
                 {
                     needsCollapse ?
