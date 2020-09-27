@@ -1,7 +1,7 @@
 #get-started{
     height: inherit;
     width: inherit;
-    min-height: 100vh;
+    min-height: 400vh;
     background-color: #efefef;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,8 @@
 @media screen and (max-width: 800px) {
     .info-section{
         flex-direction: column;
-        height: 100vh;
+        justify-content: center;
+        align-items: center;
     }
     .half-section {
         width: 100%;
@@ -98,6 +99,47 @@
     }
 
     .half-section-text {
+        width: 100%;
+        border-bottom: none;
+        padding: 10px;
+    }
+
+    #emphasis {
+        font-size: 5vw;
+    }
+
+    .get-started-questions{
+        font-size: 4.5vw;
+    }
+
+    .get-started-contact{
+        font-size: 4vw;
+    }
+
+    #section-two {
+        flex-direction: column-reverse;
+    }
+    
+    #section-four {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .info-section{
+        flex-direction: column;
+    }
+    .half-section {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .get-started-header{
+        font-size:7vw;
+    }
+
+    .half-section-text {
+        font-size: 10pt;
         width: 100%;
         border-bottom: none;
         padding: 10px;
