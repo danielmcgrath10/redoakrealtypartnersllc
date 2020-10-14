@@ -310,11 +310,12 @@
 
 #tree{
     position: absolute;
-    height:750px;
+    height:850px;
+    width: auto;
     bottom: 0;
     left: 0;
-    margin-bottom: 6vh;
-    margin-left: 7%;
+    margin-bottom: 0vh;
+    margin-left: 4%;
     z-index: 1;
 }
 
@@ -412,7 +413,7 @@
     max-width: 45%;
     height: auto;
     margin-left: 4%;
-    margin-bottom: 9vh;
+    margin-bottom: 7vh;
 }
 
 #cloud3 {
@@ -503,17 +504,17 @@
 @media screen and (max-width: 1800px) {
     /* start of large tablet styles */
     #help-section {
-        min-height: 1300px;
+        min-height: 900px;
     }
     
     #cloud1 {
-        max-width: 20%;
+        max-width: 15%;
         margin-top: 8vh;
-        margin-left: 9%;
+        margin-left: 8%;
     }
     
     #cloud2 {
-        max-width: 30%;
+        max-width: 25%;
         height: auto;
         margin-top: 14vh;
         margin-left: 60%;
@@ -525,26 +526,26 @@
     }
     
     #header-text{
-        font-size: 14vw;
+        font-size: 9vw;
         height: 70%;
     }
     
     #header-text-bottom{
         left: 0;
         right: 0;
-        font-size: 12vw;
+        font-size: 6vw;
         height: 70%;
     }
     
     #house {
-        max-width: 30%;
+        max-width: 22%;
         margin-bottom: 11vh;
     }
     
     #mailbox {
-        max-width: 7%;
+        max-width: 5%;
         height: auto;
-        margin-right: 34%;
+        margin-right: 35%;
         margin-bottom: 11vh;
     }
     
@@ -584,70 +585,70 @@
     }
     
     #tree{
-        max-width: 45%;
+        max-width: 40%;
         height: auto;
-        margin-left: 4%;
-        margin-bottom: 9vh;
+        margin-left: 5%;
+        margin-bottom: 2vh;
     }
     
     #cloud3 {
-        max-width: 25%;
+        max-width: 20%;
         height: auto;
-        margin-top: 60vh;
-        margin-left: 15%;
+        margin-top: 50vh;
+        margin-left: 10%;
         z-index: 1;
     }
     
     #cloud4 {
-        max-width: 35%;
+        max-width: 25%;
         height: auto;
-        margin-top: 70vh;
-        margin-left: 50%;
+        margin-top: 55vh;
+        margin-left: 55%;
         z-index: 1;
     }
     
     #cloud5 {
-        max-width: 50%;
+        max-width: 20%;
         height: auto;
         margin-left: 5%;
     }
     #cloud6 {
         max-width: 25%;
         height: auto;
-        margin-top: 65vh;
+        // margin-top: 65vh;
         margin-left: 50%;
         // z-index: 999;
     }
     
     #cloud7{
-        max-width: 30%;
+        max-width: 20%;
         height: auto;
-        margin-top: 108vh;
+        // margin-top: 108vh;
         margin-left: -20%;
     }
     
     #cloud8 {
-        max-width: 30%;
+        max-width: 10%;
         height: auto;
-        margin-top: 5%;
+        // margin-top: 5%;
     }
     #cloud9 {
-        max-width: 40%;
+        max-width: 20%;
         margin-left: 40%;
     }
     
     #fallingmoney1 {
-        max-width: 5%;
+        max-width: 4%;
         height: auto;
-        margin-left: 15%;
-        margin-top: 13vh;;
+        margin-left: 12%;
+        margin-top: 14vh;;
     }
     
     #fallingmoney2 {
         max-width: 7%;
         height: auto;
-        margin-left: 70%;
-        margin-top: 21vh;
+        margin-left: 65%;
+        margin-top: 27vh;
     }
     
     #fallingmoney3 {
@@ -663,17 +664,24 @@
     }
     
     #fallingmoney5 {
-        max-width: 10%;
+        max-width: 9%;
         margin-left: 70%;
+        margin-top: 5%;
     }
     
     #fallingmoney6 {
         max-width: 12%;
         margin-left: 10%;
-        margin-top: 20%;
+        margin-top: 10%;
     }
     
     }
+
+@media screen and (max-width: 1370px) and (max-height: 1100px){
+    .tree{
+        margin-bottom: 8vh !important;
+    }
+}
 
 @media screen and (max-width: 991px) {
 /* start of large tablet styles */
@@ -707,7 +715,7 @@
 #header-text-bottom{
     left: 0;
     right: 0;
-    font-size: 12vw;
+    font-size: 8vw;
     height: 70%;
 }
 
@@ -886,7 +894,7 @@
 
 #header-text-bottom{
     left: 0; right: 0;
-    font-size: 12vw;
+    font-size: 8vw;
     height: 70%;
 }
 
@@ -941,7 +949,7 @@
     max-width: 45%;
     height: auto;
     margin-left: 4%;
-    margin-bottom: 9vh;
+    margin-bottom: 6vh;
 }
 
 #cloud3 {
@@ -981,12 +989,12 @@
 }
 
 #cloud8 {
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
     margin-top: 5%;
 }
 #cloud9 {
-    max-width: 40%;
+    max-width: 30%;
     margin-left: 40%;
 }
 
@@ -1017,12 +1025,12 @@
 }
 
 #fallingmoney5 {
-    max-width: 10%;
+    max-width: 8%;
     margin-left: 70%;
 }
 
 #fallingmoney6 {
-    max-width: 12%;
+    max-width: 9%;
     margin-left: 10%;
     margin-top: 20%;
 }

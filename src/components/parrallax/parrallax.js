@@ -101,11 +101,11 @@ export default function ParrallaxImage(props){
                 <div id={'help-boxes'}>
                     <div className={'message-box'}>
                         <img src={Form} alt={'Form'} className={'message-box-img'}/>
-                        <span className={'message-box-text'}>You Fill Out Our Form</span>
+                        <span className={'message-box-text'}>You Give Us Your Information</span>
                     </div>
                     <div className={'message-box'}>
                         <img src={Phone} alt={'Phone'} className={'message-box-img'}/>
-                        <span className={'message-box-text'}>You Answer a Call</span>
+                        <span className={'message-box-text'}>We Call You</span>
                     </div>
                     <div className={'message-box'}>
                         <img src={Money} alt={'Money'} className={'message-box-img'}/>
@@ -127,7 +127,7 @@ export default function ParrallaxImage(props){
                 <img id={'money'} alt={'Money'} src={Money}/>
                 <img id={'money1'} alt={'Money'} src={Money}/>
                 <img id={'money2'} alt={'Money'} src={Money}/>
-                <img id={'tree'} alt={'Tree'} src={Tree + '#svgView(viewBox(90, 30, 350, 400))'}/>
+                <img id={'tree'} alt={'Tree'} src={Tree}/>
                 <img id={'grass1'} alt={'Grass'} src={Grass}/>
                 <img id={'grass2'} alt={'Grass'} src={Grass}/>
                 <div id={'ground'} ></div>
