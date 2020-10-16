@@ -1,0 +1,75 @@
+#splash-screen{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pulse{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 50%;
+}
+
+.pulse::before,
+.pulse::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid red;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+}
+
+.pulse:after{
+    animation-delay: 0.5s;
+}
+
+@keyframes animate
+{
+    0%{
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+
+}
+
+#splash-screen-logo {
+    height: 300px;
+    width: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .pulse{
+        height: 200px;
+        width: 200px;
+    }
+
+    #splash-screen-logo {
+        height: 200px;
+        width: auto;
+    }
+}
+
+
+
+

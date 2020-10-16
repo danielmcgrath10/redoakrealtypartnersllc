@@ -56,7 +56,7 @@ export default function ParrallaxImage(props){
             }
         } else {
             if(scroll < 764){
-                text.style.top = scroll * 0.7+ 'px';
+                text.style.top = scroll * 0.2+ 'px';
                 cloud1.style.left = scroll * 0.05 + 'px';
                 cloud2.style.left = scroll * 0.05 + 'px';
                 cloud3.style.left = scroll * 0.1 + 'px';

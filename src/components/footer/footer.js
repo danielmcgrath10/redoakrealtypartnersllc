@@ -18,13 +18,13 @@ export default function Footer(props){
                 <span id={'footer-information'} className={'footer-text'}>
                     1510 Tremont St. <br/>
                     Boston, MA 02120 <br/>
-                    (XXX) XXX - XXXX | (XXX) XXX - XXXX<br/>
-                    michael@redoakrpllc.com | daniel@redoakrpllc.com
+                    (508) 319 - 9503 <br/>
+                    info@redoakrpllc.com
                 </span>
                 <div style={{display: 'flex', flexDirection: 'row', margin: '10px'}}>
-                    <a href={'https://www.facebook.com/'}><img alt={'Facebook'} src={FB} id={'fb'} /></a>
+                    {/* <a href={'https://www.facebook.com/'}><img alt={'Facebook'} src={FB} id={'fb'} /></a> */}
                     <a target="_blank" href={'https://www.instagram.com/redoakrpllc'}><img alt={'Instagram'} src={Insta} id={'insta'}/></a>
-                    <a href={'https://www.linkedin.com/'}><img alt={'LinkedIn'} src={Linked} id={'linked'}/></a>
+                    {/* <a href={'https://www.linkedin.com/'}><img alt={'LinkedIn'} src={Linked} id={'linked'}/></a> */}
                 </div>
             </div>
             <div className={'footer-section'}>

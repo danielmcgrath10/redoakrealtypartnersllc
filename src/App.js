@@ -1,26 +1,15 @@
-import React, { useRef } from 'react';
+import React, { Suspense, useRef } from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import Main from './pages/main/main';
-import Footer from './components/footer/footer';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import About from './pages/about/about';
+import Footer from './components/footer/footer';
 import CustomNavbar from './components/navbar/navbar';
-import GetStarted from './pages/getStarted/getStarted';
 import ContactPopover from './components/popover/popover';
+import SplashScreen from './components/splashPage/splashPage';
 
-
-function HomePage(props) {
-  const {
-    OurProcessRef
-  } = props;
-  return(
-      <Main
-        {...props}
-        OurProcessRef={OurProcessRef}
-      />
-  )
-}
+const HomePage = React.lazy(() => import('./pages/main/main'));
+const GetStarted = React.lazy(() => import('./pages/getStarted/getStarted'));
+const About = React.lazy(() => import('./pages/about/about'));
 
 function App(props) {
   const OurProcessRef = useRef(null);
@@ -31,6 +20,7 @@ function App(props) {
           OurProcessRef={OurProcessRef} 
         />
       <div className="App">
+        <Suspense fallback={<SplashScreen/>}>
           <Switch>
             <Route exact path={'/'}><Redirect to={'/home'}/></Route>
             <Route path={'/home'} render={(props) => <HomePage OurProcessRef={OurProcessRef} {...props}/>}/>
@@ -38,8 +28,9 @@ function App(props) {
             <Route path={'/about-us'} render={(props) => <About {...props} />}/>
             <Redirect to={'/home'}/>
           </Switch>
-        <Footer/>
-        <ContactPopover/>
+          <Footer/>
+          <ContactPopover/>
+        </Suspense>
       </div>
     </>
   );

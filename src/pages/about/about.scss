@@ -19,7 +19,7 @@
     height: 100%;
     z-index: 1;
     opacity: 0.2;
-    background-image: url('../../img/office.jpg');
+    background-image: url('../../img/about-background.JPG');
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -40,7 +40,7 @@
 }
 
 .role-text {
-    font-family: 'Lora', serif;
+    font-family: 'Livvic', sans-serif;
     font-size: 23pt;
     font-weight: 900;
     letter-spacing: 1.5px;
@@ -52,8 +52,9 @@
 }
 
 .role-description {
+    width: 80%;
     word-wrap: break-word;
-    font-family: 'Lora', serif;
+    font-family: 'Livvic', sans-serif;
     font-size: 15pt;
     font-weight: 900;
     letter-spacing: 1.5px;
@@ -79,13 +80,6 @@
     overflow: hidden;
     border-radius: 50%;
 }
-
-#danny-headhsot{
-    display: inline;
-    margin: 0 auto;
-    width: 100%;
-}
-
 @media screen and (max-width: 1500px) {
     #about-us{
         flex-direction: column;
@@ -138,12 +132,6 @@
         position: relative;
         overflow: hidden;
         border-radius: 50%;
-    }
-    
-    #danny-headhsot{
-        display: inline;
-        margin: 0 auto;
-        width: 100%;
     }
 
 }
