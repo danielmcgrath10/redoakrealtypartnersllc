@@ -6,7 +6,7 @@ export default function SplashScreen(){
     return(
         <div id={'splash-screen'}>
             <div class={'pulse'}>
-                <img id={"splash-screen-logo"} src={logo}/>
+                {/* <img id={"splash-screen-logo"} src={logo}/> */}
             </div>
         </div>
     )
