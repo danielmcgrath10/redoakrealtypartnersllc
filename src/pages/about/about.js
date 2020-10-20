@@ -11,7 +11,7 @@ export default function About(props) {
                 <span id={'mission-statement'} className={'role-text'}>
                     {/* Red Oak Realty Partners LLC is a real estate wholesaling company dedicated to providing the most
                     efficient and transparent service possible to its clients.  */}
-                    Our goal is to unburden our clients by quickly purchasing their properties.
+                    Our goal is to provide a transparent service that assists our clients by quickly and efficiently closing deals.
                 </span>
                 <img className={'about-us-pic'} src={founders} alt={'Founders'} />
                 <span className={'role-text'}>Daniel McGrath | Michael Timson</span>

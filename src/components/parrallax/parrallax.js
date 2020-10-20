@@ -117,7 +117,7 @@ export default function ParrallaxImage(props){
                 <img id={'cloud7'} src={Cloud} alt={"Cloud"}/>
             </div>
             <div className={'parrallax-section-section'}>
-                <span id={'header-text-bottom'}>Your Money Is Waiting<br/> Contact Us Today</span>
+                <span id={'header-text-bottom'}>Your Money Is Waiting.<br/> Contact Us Today</span>
                 <img id={'fallingmoney5'} alt={'Money'} src={Money}/>
                 <img id={'fallingmoney6'} alt={'Money'} src={Money}/>
                 <img id={'cloud8'} src={Cloud} alt={"Cloud"}/>
