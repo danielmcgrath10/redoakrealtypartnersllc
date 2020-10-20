@@ -5,8 +5,7 @@ import "./splashPage.scss";
 export default function SplashScreen(){
     return(
         <div id={'splash-screen'}>
-            <div class={'pulse'}>
-                {/* <img id={"splash-screen-logo"} src={logo}/> */}
+            <div className={'pulse'}>
             </div>
         </div>
     )
