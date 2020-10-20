@@ -4,7 +4,6 @@ import FB from '../../img/facebook.svg';
 import Insta from '../../img/instagram.svg';
 import Tree from '../../img/tree-01.svg';
 import Linked from '../../img/linkedin.svg';
-import { Row } from 'reactstrap';
 
 export default function Footer(props){
 
