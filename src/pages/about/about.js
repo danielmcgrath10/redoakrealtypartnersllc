@@ -24,21 +24,6 @@ export default function About(props) {
         selling a house as fast, efficient, and transparent as possible for our
         clients.
       </span>
-      <div className={"role-social"}>
-        {/* <img alt={'FaceBook Link'} src={FB} className={'about-social-icons'} id={'fb-link'}/> */}
-        <a
-          target="_blank"
-          href={"https://www.instagram.com/redoakrpllc"}
-          className={"social-icon"}
-        >
-          <img
-            alt={"Instagram Link"}
-            src={Insta}
-            className={"about-social-icons"}
-          />
-        </a>
-        {/* <img alt={'LinkedIn Link'} src={Linkedin} className={'about-social-icons'} id={'linkedin-link'}/> */}
-      </div>
     </div>
   );
 }
