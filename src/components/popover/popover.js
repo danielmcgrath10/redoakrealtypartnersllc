@@ -6,6 +6,7 @@ import PhoneInput from 'react-phone-number-input';
 import axios from 'axios';
 import BuildUrl from 'build-url';
 import NotificationManager from 'react-notifications/lib/NotificationManager';
+import ReactGA from "react-ga";
 
 export default function ContactPopover(props){
     const GOOGLE_FORM_FIRST = "entry.853751386";
@@ -23,9 +24,16 @@ export default function ContactPopover(props){
             e.stopPropagation();
             return;
         }
+        ReactGA.event({
+            category: 'Contact',
+            action: 'Sumbit form'
+        })
     }
 
     const toggle = () => {
+        if(!popoverOpen){
+            ReactGA.modalview('/contact-us/popover');
+        }
         setPhoneNum(null);
         setPopoverOpen(!popoverOpen); 
     }
@@ -48,6 +56,12 @@ export default function ContactPopover(props){
                             <div className="form-group col-md-6">
                                 <label htmlFor={"inputFirstName"}>First Name</label>
                                 <input 
+                                    onFocus={()=>{
+                                        ReactGA.event({
+                                            category: 'Contact',
+                                            action: 'FirstName'
+                                        })
+                                    }}
                                     type="text" 
                                     className="form-control" 
                                     id={"inputFirstName"} 
@@ -61,7 +75,13 @@ export default function ContactPopover(props){
                             </div>
                             <div className="form-group col-md-6">
                                 <label htmlFor={"inputLastName"}>Last Name</label>
-                                <input 
+                                <input
+                                    onFocus={()=>{
+                                        ReactGA.event({
+                                            category: 'Contact',
+                                            action: 'LastName'
+                                        })
+                                    }} 
                                     type="text" 
                                     className="form-control" 
                                     id={"inputLastName"}
@@ -73,6 +93,12 @@ export default function ContactPopover(props){
                         <div className="form-group">
                             <label htmlFor={"inputEmail"}>Email</label>
                             <input 
+                                onFocus={()=>{
+                                    ReactGA.event({
+                                        category: 'Contact',
+                                        action: 'Email'
+                                    })
+                                }}
                                 type="email" 
                                 className="form-control" 
                                 id={"inputEmail"}
@@ -87,6 +113,12 @@ export default function ContactPopover(props){
                         <div className="form-group">
                         <label htmlFor={GOOGLE_FORM_TELEPHONE}>Phone Number</label>
                             <PhoneInput 
+                                onFocus={()=>{
+                                    ReactGA.event({
+                                        category: 'Contact',
+                                        action: 'Phone Number'
+                                    })
+                                }}
                                 id={'phone-input'}
                                 // className={'phone-input'}
                                 name={GOOGLE_FORM_TELEPHONE}
