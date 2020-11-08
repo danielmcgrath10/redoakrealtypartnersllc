@@ -34,7 +34,7 @@ function App(props) {
             <Redirect to={'/home'}/>
           </Switch>
           <Footer/>
-          <ContactPopover/>
+          {/* <ContactPopover/> */}
         </Suspense>
       </div>
     </>
