@@ -1,0 +1,113 @@
+#ocean-scene-container{
+	height: 30vh;
+	width: 100%;
+	align-self: flex-end;
+	position: relative;
+	bottom: 0;
+}
+
+#ocean-scene-land{
+    position: absolute;
+	height: 11vh;
+	bottom: 0;
+	right: 0;
+	background-image: linear-gradient(#7ec850, #7ec850, #DEB887);
+	width: 40vw;
+	z-index: 1001;
+	border-radius: 80% 0 0 0;;
+}
+
+#ocean-scene-sun{
+	position: absolute;
+	height: 20vh;
+	width: auto;
+	right: 45%;
+	top: 30%;
+}
+
+#ocean-scene-house {
+	position: absolute;
+	height: 15vh;
+	width: auto;
+	right: 0;
+	bottom:11vh;
+}
+
+#ocean-scene-logo {
+	position: absolute;
+	height: 25vh;
+	width: auto;
+	right: 8%;
+	bottom:7vh;
+}
+
+// ======================================== Start of Ocean animation
+
+.ocean{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 10vh;
+	overflow: hidden;
+	background-color: #009dc4;
+}
+
+.wave {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px; 
+	background: url(../../img/wave.png);
+	background-size: 1000px 15px;
+}
+
+.wave1 {
+	animation: animate 30s linear infinite;
+	z-index: 1000;
+	opacity: 0.2;
+	animation-delay: 0s;
+	bottom: 0;
+}
+.wave2 {
+	animation: animate2 15s linear infinite;
+	z-index: 999;
+	opacity: 0.1;
+	animation-delay: -5s;
+	bottom: 10px;
+}
+.wave3 {
+	animation: animate 30s linear infinite;
+	z-index: 998;
+	opacity: 0.3;
+	animation-delay: -5s;
+	bottom: 10px;
+}
+.wave4 {
+	animation: animate2 5s linear infinite;
+	z-index: 997;
+	opacity: 0.4;
+	animation-delay: -5s;
+	bottom: 20px;
+}
+@keyframes animate
+{
+	0%{
+		background-position: 0;
+	}
+	100%{
+		background-position: 1000px;
+	}
+}
+
+@keyframes animate2
+{
+	0%{
+		background-position: 0;
+	}
+	100%{
+		background-position: -1000px;
+	}
+}
+
+
