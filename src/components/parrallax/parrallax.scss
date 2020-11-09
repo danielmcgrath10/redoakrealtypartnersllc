@@ -81,6 +81,9 @@
 }
 
 #bottom {
+    height: 100vh;
+    justify-content: space-between;
+    position: relative;
     background-image: linear-gradient(#c6151b, #ff8967, #fec051, yellow);
 }
 
@@ -88,6 +91,13 @@
     font-family: 'Livvic', sans-serif;
     font-size: 5vw;
     color: white;
+}
+
+#title-two{
+    font-family: 'Livvic', sans-serif;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
 }
 
 #help-boxes {
@@ -124,3 +134,8 @@
 .message-box-img {
     height: 100px;
 }
+
+#ocean-scene {
+    height: 30vh;
+}
+
