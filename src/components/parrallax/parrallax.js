@@ -48,18 +48,14 @@ export default function ParrallaxImage(props) {
               </span>
             </div>
           </div>
-          <div id={"bottom"} className={"container-fluid parrallax-section"}>
-            <span id={"title-two"}>
-              Your Money is Waiting <br /> Contact Us Today
-            </span>
-            <MainForm />
-            <OceanScene />
-          </div>
         </div>
-        <div
-          id={"bottom"}
-          className={"container-fluid parrallax-section"}
-        ></div>
+      </div>
+      <div id={"bottom"} className={"container-fluid parrallax-section"}>
+        <span id={"title-two"}>
+          Your Money is Waiting <br /> Contact Us Today
+        </span>
+        <MainForm />
+        <OceanScene />
       </div>
     </div>
   );
