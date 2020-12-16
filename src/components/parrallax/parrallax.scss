@@ -11,7 +11,7 @@
 }
 
 .parrallax-section{
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .parrallax-img {
@@ -78,6 +78,7 @@
 
 #middle{
     background-image: linear-gradient(#0b0b1c, #4E162E, #c6151b);
+    position: relative;
 }
 
 #bottom {
