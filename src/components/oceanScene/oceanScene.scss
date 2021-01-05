@@ -1,0 +1,157 @@
+#ocean-scene-container{
+	height: 30vh;
+	width: 100%;
+	align-self: flex-end;
+	position: relative;
+	bottom: 0;
+}
+
+#ocean-scene-land{
+    position: absolute;
+	height: 11vh;
+	bottom: 0;
+	right: 0;
+	background-image: linear-gradient(#7ec850, #7ec850, #DEB887);
+	width: 40vw;
+	z-index: 1001;
+	border-radius: 80% 0 0 0;;
+}
+
+#ocean-scene-sun{
+	position: absolute;
+	height: auto;
+	width: 10vw;
+	right: 45%;
+	bottom: 5vh;
+}
+
+#ocean-scene-house {
+	position: absolute;
+	height: auto;
+	width: 8vw;
+	right: 0;
+	bottom:11vh;
+}
+
+#ocean-scene-logo {
+	position: absolute;
+	height: auto;
+	width: 12vw;
+	right: 8%;
+	bottom:8vh;
+}
+
+// ======================================== Start of Ocean animation
+
+.ocean{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 10vh;
+	overflow: hidden;
+	background-color: #009dc4;
+}
+
+.wave {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10vh; 
+	background: url(../../img/wave.png);
+	background-size: 1000px 15px;
+}
+
+.wave1 {
+	animation: animate 30s linear infinite;
+	z-index: 1000;
+	opacity: 0.2;
+	animation-delay: 0s;
+	bottom: 0;
+}
+.wave2 {
+	animation: animate2 15s linear infinite;
+	z-index: 999;
+	opacity: 0.1;
+	animation-delay: -5s;
+	bottom: 10px;
+}
+.wave3 {
+	animation: animate 30s linear infinite;
+	z-index: 998;
+	opacity: 0.3;
+	animation-delay: -5s;
+	bottom: 10px;
+}
+.wave4 {
+	animation: animate2 5s linear infinite;
+	z-index: 997;
+	opacity: 0.4;
+	animation-delay: -5s;
+	bottom: 20px;
+}
+@keyframes animate
+{
+	0%{
+		background-position: 0;
+	}
+	100%{
+		background-position: 1000px;
+	}
+}
+
+@keyframes animate2
+{
+	0%{
+		background-position: 0;
+	}
+	100%{
+		background-position: -1000px;
+	}
+}
+
+@media screen and (max-width: 320px){
+
+}
+
+@media screen and (max-width: 760px){
+    #ocean-scene-sun{
+		bottom: 4vh;
+	}
+	.ocean {
+		height: 5vh;
+	}
+	.wave{
+		height: 5vh;
+	}
+	#ocean-scene-land{
+		height: 6vh;
+	}
+	#ocean-scene-house{
+		bottom: 6vh;
+	}
+	#ocean-scene-logo{
+		bottom: 5vh;
+	}
+}
+
+@media screen and (min-width: 760px) and (max-width: 1200px){
+	#ocean-scene-sun{
+		bottom: 7vh;
+	}
+	.ocean {
+		height: 9vh;
+	}
+	.wave{
+		height: 9vh;
+	}
+	#ocean-scene-land{
+		height: 10vh;
+	}
+	#ocean-scene-house{
+		bottom: 10vh;
+	}
+	#ocean-scene-logo{
+		bottom: 9vh;
+	}
+}

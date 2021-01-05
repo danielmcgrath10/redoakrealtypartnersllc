@@ -9,14 +9,14 @@ export default function Footer(props) {
   return (
     <div id={"footer"}>
       <div className={"footer-section"}>
-        <img alt={"RedOakRPLLC Tree Logo"} src={Tree} id={"footer-logo"} />
+        <img alt={"Logo"} src={Tree} id={"footer-logo"} />
         <span id={"footer-title"} className={"footer-text"}>
           Red Oak Realty Partners LLC.
         </span>
       </div>
       <div className={"footer-section"}>
         <span id={"footer-information"} className={"footer-text"}>
-          1510 Tremont St. <br />
+          1510 Tremont Street <br />
           Boston, MA 02120 <br />
           (508) 319 - 9503 <br />
           <a href={"mailto:info@redoakrpllc.com"}>info@redoakrpllc.com</a>
