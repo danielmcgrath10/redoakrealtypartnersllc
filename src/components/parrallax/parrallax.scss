@@ -42,22 +42,6 @@
     opacity: 0.5;
 }
 
-#star-cluster-topright{
-    height: 5vh;
-    width: auto;
-    top: 20%;
-    right: 20%;
-    opacity: 0.2;
-}
-
-#star-cluster-bottom-left{
-    height: 5vh;
-    width: auto;
-    bottom: 20%;
-    left: 20%;
-    opacity: 0.2;
-}
-
 #top{
     width: 100%;
     position: relative;
@@ -127,16 +111,128 @@
 
 .message-box-text{
     text-align: center;
-    font-size: 30pt;
+    font-size: 2em;
     font-weight: 600;
     font-family: 'Livvic', sans-serif;
 }
 
 .message-box-img {
-    height: 100px;
+    height: 40%;
+    width: auto;
 }
 
 #ocean-scene {
     height: 30vh;
+}
+
+@media screen and (max-width: 361px){
+    #title-one{
+        width: 80%;
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    #title-two{
+        font-size: 1.5em;
+    }
+
+    #moon{
+        height: 20vw;
+        width: auto;
+    }
+
+    #title-cloud {
+        height: 15vw;
+        width: auto;
+        top: 40px;
+
+    }
+
+    #title-cloud-2 {
+        height: 20vw;
+        width: auto;
+    }
+
+    .message-box-text{
+        font-size: 1.25em;
+    }
+
+    .message-box{
+        width: 75%;
+        margin: 10px;
+    }
+
+    #bottom {
+        height: 110vh;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 760px){
+    #title-one{
+        width: 85%;
+        text-align: center;
+        font-size: 4em;
+    }
+    
+    #title-two{
+        font-size: 2em;
+    }
+
+    #moon{
+        height: 20vw;
+        width: auto;
+    }
+
+    #title-cloud {
+        height: 15vw;
+        width: auto;
+        top: 40px;
+
+    }
+
+    #title-cloud-2 {
+        height: 20vw;
+        width: auto;
+    }
+
+    #bottom {
+        height: 90vh;
+    }
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 1200px){
+    #title-one{
+        text-align: center;
+        width: 90%;
+        font-size: 6em;
+    }
+    
+    #title-two{
+        font-size: 4em;
+    }
+
+    #moon{
+        height: 20vw;
+        width: auto;
+    }
+
+    #title-cloud {
+        height: 15vw;
+        width: auto;
+        top: 80px;
+
+    }
+
+    #title-cloud-2 {
+        height: 20vw;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    .message-box-text{
+        font-size: 4em;
+    }
 }
 
