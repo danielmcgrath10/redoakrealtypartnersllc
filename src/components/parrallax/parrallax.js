@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./parrallax.scss";
 import Moon from "../../img/moon.svg";
 import TitleCloud from "../../img/cloud.svg";
-import starCluster1 from "../../img/star-cluster.svg";
 import Form from "../../img/form.svg";
 import Phone from "../../img/telephone.svg";
 import Money from "../../img/money.svg";
