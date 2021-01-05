@@ -1,70 +1,89 @@
-// #PopoverButton {
-//     position: fixed;
-//     bottom: 0;
-//     right: 0;
-//     z-index: 100;
-//     margin-right: 10px;
-//     font-size: 17pt;
-//     font-family: 'Livvic', sans-serif;
-//     color: #7c0c00;
-//     border: 1px solid lightgrey;
-// }
+#PopoverButton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    margin-right: 10px;
+    font-size: 17pt;
+    font-family: 'Livvic', sans-serif;
+    color: #7c0c00;
+    border: 1px solid lightgrey;
+}
 
-// .popover-body{
-//     border-radius: 10px;
-//     max-height: 80vh;
-//     overflow-y: auto;
-// }
+.popover-body{
+    border-radius: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
 
-// .form-control {
-//     display: flex;
-//     flex-direction: row;
-// }
+.form-control {
+    display: flex;
+    flex-direction: row;
+}
 
-// .contact-form-header{
-//     font-size: 15pt !important;
-//     font-family: 'Livvic', sans-serif;  
-//     color: #7c0c00;
-// }
+.contact-form-header{
+    font-size: 15pt !important;
+    font-family: 'Livvic', sans-serif;  
+    color: #7c0c00;
+}
 
-// .interest-form{
-//     background-color: white;
-//     border-radius: 20px;
-//     display: flex;
-//     flex-direction: column;
-//     font-family: 'Livvic', sans-serif;
-// }
-// .popover-content{
-//     width: 300px;
-// }
+.interest-form{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Livvic', sans-serif;
+}
+.popover-content{
+    width: 300px;
+}
 
-// .popover {
-//     width: 700px !important;
-// }
+.popover {
+    width: 700px !important;
+}
 
-// #form-title{
-//     font-size: 20pt;
-//     margin-bottom: 20px;
+#form-title{
+    font-size: 20pt;
+    margin-bottom: 20px;
     
-// }
+}
 
-// #contact-form-spinner {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     height: 200px;
+#contact-form-spinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 
-// }
-// #contact-form-feedback {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     height:100px;
-//     font-family: 'Livvic', sans-serif;
-//     color: #7c0c00;
-//     font-size: 15pt;
-//     text-align: center;
-// }
+}
+#contact-form-feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    font-family: 'Livvic', sans-serif;
+    color: #7c0c00;
+    font-size: 15pt;
+    text-align: center;
+}
+
+#phone-input-popover {
+    border: none;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+label {
+    font-family: 'Livvic', sans-serif;
+}
 

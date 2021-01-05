@@ -34,7 +34,11 @@ function App(props) {
             <Redirect to={'/home'}/>
           </Switch>
           <Footer/>
-          {/* <ContactPopover/> */}
+          {
+            window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1) != 'home' ?
+              <ContactPopover/>
+            :
+              null}
         </Suspense>
       </div>
     </>
