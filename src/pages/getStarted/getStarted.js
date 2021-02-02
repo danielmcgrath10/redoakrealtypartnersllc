@@ -1,9 +1,9 @@
 import React from "react";
 import "./getStarted.scss";
-import Contact from "../../img/contact.jpg";
-import Money from "../../img/money-pic.jpg";
-import Time from "../../img/time-2.jpg";
-import Relax from "../../img/relax.jpg";
+import Contact from "../../img/ROhand.svg";
+import Money from "../../img/ROmoney-hold.svg";
+import Time from "../../img/ROwatch.svg";
+import Relax from "../../img/ROsitting.svg";
 import { Helmet } from "react-helmet";
 import { treeLogo } from "../../img/tree-01.svg";
 
